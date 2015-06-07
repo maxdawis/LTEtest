@@ -15,4 +15,6 @@
  *= require_self
  */
 
-@import "font-awesome";
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
